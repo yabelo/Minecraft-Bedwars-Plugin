@@ -15,6 +15,8 @@ import Classes.Server;
 import Commands.JoinBW;
 import Commands.SetBed;
 import Commands.SetDeathPlace;
+import Commands.SetDiamondGen;
+import Commands.SetEmeraldGen;
 import Commands.SetGen;
 import Commands.SetLobby;
 import Commands.SetSpawn;
@@ -55,6 +57,8 @@ public class Main extends JavaPlugin {
 		getCommand("setdiamondvil").setExecutor(new SetVil(this));
 		getCommand("setbed").setExecutor(new SetBed(this));
 		getCommand("setgen").setExecutor(new SetGen(this));
+		getCommand("setdiamondgen").setExecutor(new SetDiamondGen(this));
+		getCommand("setemeraldgen").setExecutor(new SetEmeraldGen(this));
 		getCommand("stopbw").setExecutor(new StopBW(this));
 		getCommand("startbw").setExecutor(new StartBW(this));
 		getCommand("joinbw").setExecutor(new JoinBW(this));
