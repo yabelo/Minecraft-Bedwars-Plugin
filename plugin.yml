@@ -1,0 +1,19 @@
+name: BedwarsPlugin
+version: '1.0'
+main: Main.Main
+author: Yablo
+
+commands:
+  setlobby:
+  setspawn:
+  setshopvil:
+  setgen:
+  setdiamondvil:
+  setdiamondgen:
+  setemeraldgen:
+  setbed:
+  stopbw:
+  startbw:
+  joinbw:
+  setdeathplace:
+  
